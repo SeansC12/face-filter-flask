@@ -156,8 +156,7 @@ def overlay_image(frame, overlay_path, prop_index, scaleVal):
 
 def video_feed():
     # Open the default camera (index 0)
-    cap = cv2.VideoCapture(1)
-    
+    cap = cv2.VideoCapture(2)
     
     # Reading resolution of camera input
     ret, frame = cap.read()
